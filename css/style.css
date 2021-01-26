@@ -463,6 +463,87 @@ body {
     background-color: #FB2719;
 }
 
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+    padding: 96px 0 103px;
+}
+
+.footer__logo {
+    margin-left: 10px;
+}
+
+.footer__menu {
+    width: 182px;
+}
+
+.footer__menu--left {    
+    margin-left: 85px;
+}
+
+.footer__menu--right {
+    margin-right: 85px;
+}
+
+.footer__menu-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #2F281E;
+    margin-bottom: 35px;
+}
+
+.footer__list-item {
+    list-style: none;
+}
+
+.footer__list-link {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #544837;
+}
+
+.footer__form {
+    max-width: 330px;
+}
+
+.footer__form-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #2F281E;
+    margin-bottom: 34px;
+}
+
+.footer__input {
+    width: 330px;
+    height: 46px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-bottom: 22px;    
+}
+
+.footer__input::placeholder {
+    color: #BCD0E5;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;  
+}
+
+.footer__form-link {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 16px;
+    background-color: #FB2719;
+    border-radius: 4px;
+    text-decoration: none;
+}
 
 
 
