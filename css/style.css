@@ -127,3 +127,68 @@ body {
     background-image: url(../images/play-promo.png);
 }
 
+.tools {
+    padding-top: 110px;
+}
+
+.tools__title {
+    text-align: center;
+    max-width: 604px;
+    margin: 0 auto 72px;
+}
+
+.tools__inner {
+    background-image: url(../images/tools-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+
+.tools__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 8px 6px 0;
+}
+
+.tools__item {
+    max-width: 240px;
+}
+
+.tools__img {
+    margin-bottom: 30px;
+}
+
+.tools__item-title {
+    color: 2F281E;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 21px;
+}
+
+.tools__item-text {
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.tools__link {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FB2719;
+    padding: 17px 34px;
+    border-radius: 4px;
+    display: block;
+    width: 175px;
+    margin: 0 auto;
+}
+
+
+
+
+
