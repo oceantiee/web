@@ -4,9 +4,10 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #544837;
 }
 
 .title {
@@ -94,6 +95,9 @@ body {
 .top__text {
     max-width: 450px;
     margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
 }
 
 .top__btn {
@@ -129,6 +133,7 @@ body {
 
 .tools {
     padding-top: 110px;
+    margin-bottom: 147px;
 }
 
 .tools__title {
@@ -186,6 +191,67 @@ body {
     display: block;
     width: 175px;
     margin: 0 auto;
+}
+
+.descr__box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 117px;
+}
+
+.descr__content {
+    max-width: 486px;
+}
+
+.descr__content-left {
+    margin-right: 18px;
+}
+
+.descr__content-right {
+    margin-left: 18px;
+}
+
+.descr__pretitle {
+    margin-bottom: 9px;
+}
+
+.descr__title {
+    margin-bottom: 35px;
+}
+
+.descr__title-text {
+    margin-bottom: 30px;
+    max-width: 486px;
+}
+
+.descr__subtitle {
+    color: #2F281E;
+    font-weight: 700;
+    margin-bottom: 12px;
+    max-width: 486px;
+}
+
+.descr__text {
+    margin-bottom: 25px;
+    max-width: 486px;
+}
+
+.descr__list-item {
+    list-style: none;
+    padding-left: 65px;
+    margin-bottom: 30px;
+    max-width: 450px;
+    position: relative;
+}
+
+.descr__list-item::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/descr-list.svg);
+    left: 0;
+    top: 8px;
+    height: 35px;
+    width: 35px;
 }
 
 
