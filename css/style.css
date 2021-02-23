@@ -103,6 +103,11 @@ button {
     font-weight: 400;
     text-decoration: none;
     color: #2F281E;
+    transition: all .3s;
+}
+
+.menu__link:hover {
+  color: #FB2719;
 }
 
 .user-nav {
@@ -119,6 +124,11 @@ button {
     border: 1px solid #BCD0E5;
     border-radius: 4px;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.user-nav__link:hover {
+    color: #FB2719;
 }
 
 .user-nav__link + .user-nav__link {
@@ -127,13 +137,19 @@ button {
     padding: 14px 4px;
     border-color: transparent;
     margin-left: 14px;
+    transition: all .3s;
+}
+
+.user-nav__link + .user-nav__link:hover {
+    color: #173A56;
 }
 
 .top__inner {
-    padding: 77px 0 88px;
+    padding: 69px 0 88px;
     background-image: url(../images/top-bg.jpg);
     background-repeat: no-repeat;
-    background-position: bottom right;    
+    background-position: bottom right;
+    border-radius: 25px;    
 }
 
 .top__title {
@@ -157,6 +173,11 @@ button {
     padding: 17px 59px;
     border-radius: 4px;
     border-color: transparent;
+    transition: all .3s;
+}
+
+.top__btn:hover {
+  color: #173A56;
 }
 
 .top__link {
@@ -239,6 +260,11 @@ button {
     display: block;
     width: 175px;
     margin: 0 auto;
+    transition: all .3s;
+}
+
+.tools__link:hover {
+    color: #173A56;
 }
 
 .descr__box {
@@ -283,6 +309,14 @@ button {
 
 .descr__text {
     margin-bottom: 25px;
+}
+
+.descr__img--right {
+    border-radius: 0 25px 25px 0px;
+}
+
+.descr__img--left {
+    border-radius: 25px 0 0 25px;
 }
 
 .descr__list-item {
@@ -337,6 +371,11 @@ button {
     padding: 17px 18px;
     border-radius: 4px;
     border-color: transparent;
+    transition: all .3s;
+}
+
+.expert__btn:hover {
+    color: #173A56;
 }
 
 .expert__item {
@@ -477,6 +516,7 @@ button {
     line-height: 34px;
     transition: all .2s;
     margin-bottom: 84px;
+    cursor: pointer;
 }
 
 .slider__item-title:hover {
@@ -545,6 +585,11 @@ button {
     font-weight: 400;
     text-decoration: none;
     color: #544837;
+    transition: all .3s;
+}
+
+.footer__list-link:hover {
+  color: #FB2719;
 }
 
 .footer__form {
@@ -585,6 +630,11 @@ button {
     padding: 10px 16px;
     border-radius: 4px;
     border-color: transparent;
+    transition: all .3s;
+}
+
+.footer__form-btn:hover {
+  color: #173A56;
 }
 
 
